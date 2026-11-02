@@ -1,0 +1,12 @@
+body {
+  background-color: #000000;
+  color: #5f3636;
+  overflow-x: hidden;
+  margin: 0;
+}
+*{
+    background-color: red;
+}
+.container.show-nav{
+    transform: rotate(-20deg);
+}

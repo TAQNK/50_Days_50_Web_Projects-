@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css"></link>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card active" id="home-card">
+            <h1>Quiz Time</h1>
+            <h4>Test your knowledge with these fun questions.</h4>
+            <button class="btn" id="btn">Start Quiz</button>
+        </div>
+        <div class="card" id="question">
+            <h1 id="questionText">What is the capital of France</h1>
+            <div class="middleSection">
+                <h4>Question <span id="questionNumber">1</span> of <span id="questionsCount"></span> </h4>
+                <h4>Score <span id="score">0</span></h4>
+            </div>
+            <div class="" id="options">
+              
+            </div>
+        </div>
+        <div class="progressBar" id="progress">
+            <div class="progress"></div>
+        </div>
+        <div class="card" id="resultCard">
+            <h1>Quiz Results</h1>
+            <div class="md-card">
+                <h4 id="finalScore"></h4>
+                <h1 id="message">Good Effort! Keep learning</h1>
+            </div>
+            <button class="btn" id="restartBtn">Restart QUiz</button>
+        </div>
+    </div>
+</body>
+</html>

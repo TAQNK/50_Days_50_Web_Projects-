@@ -1,0 +1,139 @@
+* {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #16250944;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+h4 {
+  color: #dadada;
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.btn {
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  padding: 5px 15px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+body {
+  display: flex;
+}
+.container {
+  margin: auto;
+  min-height: 500px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  max-width: 60%;
+}
+.card {
+  background-color: rgb(84, 78, 82);
+  border-radius: 16px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  display: none;
+  
+}
+
+.middleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.option {
+  border: none;
+  background: #000;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 0;
+  color: whitesmoke;
+  text-transform: capitalize;
+  text-indent: 10px;
+  margin-top: 16px;
+}
+.option:hover {
+  background: #a9a4a4;
+  color: black;
+  font-weight: 600;
+  outline: 1px solid #000;
+}
+.progressBar {
+  background: #000;
+  height: 20px;
+  width: 100%;
+  border-radius: 20px;
+  display: none;
+}
+.progress {
+  background: white;
+  width: 20%;
+  height: 100%;
+  border-radius: 20px;
+  transition: 1s width ease;
+}
+
+.active {
+  display: block;
+}
+
+.wrong {
+  background: rgb(129, 41, 41);
+  color: rgb(213, 3, 3);
+  border: 4px solid rgb(185, 7, 7);
+}
+.right {
+  background: rgb(44, 129, 41);
+  color: rgb(38, 213, 3);
+  border: 4px solid rgb(7, 185, 46);
+}
+
+.md-card {
+  background-color: #292828;
+  border-radius: 10px;
+  padding: 10px;
+}
